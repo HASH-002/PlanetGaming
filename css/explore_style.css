@@ -1,0 +1,23 @@
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: .5rem;
+}
+}
+.bg_color1{
+    background-color:#310824;
+    background-image: linear gradient(0deg, #310824 0%, #3e0c2e 50%, #50130b 100%);
+}
+.jumbotron {
+    margin-bottom: 0;
+}
+.bg_color2{
+    background-color: #131d5c;
+    background-image: linear gradient (0deg, #131d5c 0%, #0e1955 50%, #112352 100%);
+}
+.img-corner{
+    border-radius: 40px;
+}
+.head-bg{
+    background: #ff4655;
+}

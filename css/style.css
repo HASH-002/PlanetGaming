@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.5rem;
+        padding-left: .5rem;
+    }
+ }
+ .modal-header{
+    background-color: #25368D;
+    /* background-color:#1e3285;
+    background-image: linear gradient(0deg, #1e3285 0%, #214a8d 50%, #236296 100%); */
+    color: aliceblue;
+    font-family: 'Russo One', sans-serif;
+  }
+  
+  .modal-footer{
+    background-color: #25368D;
+    /* background-color:#1e3285;
+    background-image: linear gradient(0deg, #1e3285 0%, #214a8d 50%, #236296 100%); */
+    color: aliceblue;
+    font-family: 'Russo One', sans-serif;
+  }
+    .font-russo{
+        font-family: 'Russo One', sans-serif;
+    }
+    .font-playfair{
+        font-family: 'Roboto', sans-serif;
+    }
+    footer{
+        height: 50px;
+        width: 100%;
+    }
+    footer::before{
+        background: url('/images/footer.png') no-repeat center center/cover;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        z-index: -1;
+        /* opacity: 0.8; */
+    }
+    svg{
+        fill: grey;
+    }
+    svg:hover{
+     cursor: pointer;
+     fill: black;
+    }
+   .white-color{
+      color: whitesmoke;
+   }
+   .bgcolor{
+    background-color:#26358c;
+    background-image: linear gradient (0deg, #26358c 0%, #213f9e 50%, #272a79 100%);
+   }
+   .jumbotron {
+    margin-bottom: 0;
+}
+.this_modal_body_only{
+    background-color:#1e3285;
+background-image: linear gradient(0deg, #1e3285 0%, #214a8d 50%, #236296 100%);
+}
