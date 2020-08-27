@@ -8,7 +8,7 @@
 body {
     width: 100%;
     height: 100vh;
-    background:url("/images/games_bg.png");
+    background:url("../images/games_bg.png");
     /* overflow: hidden; */
   }
 .container h1{
@@ -39,19 +39,19 @@ body {
 .new-modal1{
   width: 100%;
   height: 100%;
-  background:url("/images/marbles\ i.png");
+  background:url("../images/marbles\ i.png");
   /* opacity: 0.3; */
 }
 .new-modal2{
   width: 100%;
   height: 100%;
-  background:url("/images/enigma\ i.png");
+  background:url("../images/enigma\ i.png");
   /* opacity: 0.3; */
 }
 .new-modal3{
   width: 100%;
   height: 100%;
-  background:url("/images/tron\ bike\ i.png");
+  background:url("../images/tron\ bike\ i.png");
   /* opacity: 0.3; */
 }
 .modal-content{
