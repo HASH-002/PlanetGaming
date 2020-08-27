@@ -34,7 +34,7 @@
         width: 100%;
     }
     footer::before{
-        background: url('/images/footer.png') no-repeat center center/cover;
+        background: url('../images/footer.png') no-repeat center center/cover;
         content: "";
         position: absolute;
         width: 100%;
